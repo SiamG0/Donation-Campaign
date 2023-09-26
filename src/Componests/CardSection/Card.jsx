@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Card = ({ card }) => {
     const { id, picture, title, category, category_bg, card_bg, text_color } = card
     return (
-        <div>
+        <Link to={`/cardInfo/${id}`}>
             <div className="relative h-80 flex max-w-[24rem] flex-col rounded-xl bg-white  shadow-md" style={{backgroundColor: `${card_bg}`}}>
                 <div className="relative m-0 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
                     <img
@@ -21,7 +22,7 @@ const Card = ({ card }) => {
                 </div>
                 
             </div>
-        </div>
+        </Link>
     );
 };
 
