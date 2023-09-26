@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
-import CardShow from "./CardShow";
+import CardShow from './CardShow';
 
 
 const CardInfo = () => {

@@ -1,13 +1,37 @@
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
+const CardShow = ({ cardInfo }) => {
+    const { id, picture, title, text_color, price, description } = cardInfo;
 
-const CardShow = ({cardInfo}) => {
-    const {id, picture, title, text_color, price, description} = cardInfo
+    const handleDonate = () => {
+        const addedDonate = [];
+
+        const donateItems = JSON.parse(localStorage.getItem("donation"));
+
+        if (!donateItems) {
+            addedDonate.push(cardInfo);
+            localStorage.setItem("donation", JSON.stringify(addedDonate));
+
+            toast.success("Good Job! Your donation has been successfully");
+        } else {
+            const isExist = donateItems.find(donate => donate.id === id);
+
+            if (!isExist) {
+                addedDonate.push(...donateItems, cardInfo);
+                localStorage.setItem("donation", JSON.stringify(addedDonate));
+                toast.success("Good Job! Your donation has been successfully");
+            } else {
+                toast.error("You have already donated");
+            }
+        }
+    };
     return (
         <div>
             <div className="relative">
                 <img src={picture} className="h-[500px] w-[1200px]" alt="" />
                 <div className="bg-black w-full absolute bottom-0 p-5 bg-opacity-60">
-                    <button className="flex justify-start rounded-lg p-2 text-white" style={{backgroundColor:`${text_color}`}}>
+                    <button onClick={handleDonate} className="flex justify-start rounded-lg p-2 text-white" style={{ backgroundColor: `${text_color}` }}>
                         Donate ${price}M
                     </button>
                 </div>
@@ -16,7 +40,9 @@ const CardShow = ({cardInfo}) => {
                 <h1 className="font-bold text-2xl text-start">{title}</h1>
                 <p className="text-base text-gray-700 text-start">{description}</p>
             </div>
+            <ToastContainer></ToastContainer>
         </div>
+
     );
 };
 
