@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "picture": "https://i.ibb.co/ZKhPvct/Health.png",
+      "title": "Support Medical Aid",
+      "category": "Health",
+      "category_bg": "#aec8ff",
+      "card_bg": "#d9e5ff",
+      "text_color": "#0052FF",
+      "description": "Help us provide critical medical aid to those in need. Your donation can save lives and ensure access to quality Healthcare.",
+      "price": 50
+    },
+    {
+      "id": 2,
+      "picture": "https://i.ibb.co/MD3jKcN/Clothing.png",
+      "title": "Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "#d4ecc1",
+      "card_bg": "#ebf6e2",
+      "text_color": "#79c23f",
+      "description": "Support our Clothing drive to provide warm Clothing to underprivileged individuals and families during the cold season.",
+      "price": 20
+    },
+    {
+      "id": 3,
+      "picture": "https://i.ibb.co/bNwTmTD/Food.png",
+      "title": "Food for All",
+      "category": "Food",
+      "category_bg": "#F8714733",
+      "card_bg": "#F8714726",
+      "text_color": "#F87147",
+      "description": "Join our Food drive to ensure that no one goes to bed hungry. Your contribution can make a significant difference in the lives of those facing Food insecurity.",
+      "price": 30
+    },
+    {
+      "id": 4,
+      "picture": "https://i.ibb.co/cTydg2F/Education.png",
+      "title": "Educational Scholarships",
+      "category": "Education",
+      "category_bg": "#ffc3c5",
+      "card_bg": "#ffe3e4",
+      "text_color": "#ff444a",
+      "description": "Empower young minds through Education. Support our scholarship program and help deserving students achieve their academic dreams.",
+      "price": 100
+    },
+    {
+      "id": 5,
+      "picture": "https://i.ibb.co/ZKhPvct/Health.png",
+      "title": "Medical Relief for Vulnerable Communities",
+      "category": "Health",
+      "category_bg": "#aec8ff",
+      "card_bg": "#d9e5ff",
+      "text_color": "#0052FF",
+      "description": "Join us in providing medical relief to vulnerable communities affected by disasters and emergencies. Your donation can bring hope and healing.",
+      "price": 75
+    },
+    {
+      "id": 6,
+      "picture": "https://i.ibb.co/MD3jKcN/Clothing.png",
+      "title": "Warmth for Winter",
+      "category": "Clothing",
+      "category_bg": "#d4ecc1",
+      "card_bg": "#ebf6e2",
+      "text_color": "#79c23f",
+      "description": "Help us keep people warm during the winter season. Your support can provide blankets, jackets, and essentials to those in need.",
+      "price": 25
+    },
+    {
+      "id": 7,
+      "picture": "https://i.ibb.co/bNwTmTD/Food.png",
+      "title": "Food for Children",
+      "category": "Food",
+      "category_bg": "#F8714733",
+      "card_bg": "#F8714726",
+      "text_color": "#F87147",
+      "description": "Support our initiative to provide nutritious meals to children in underserved communities. Your donation can nourish their bodies and minds.",
+      "price": 40
+    },
+    {
+      "id": 8,
+      "picture": "https://i.ibb.co/cTydg2F/Education.png",
+      "title": "Educational Resources",
+      "category": "Education",
+      "category_bg": "#ffc3c5",
+      "card_bg": "#ffe3e4",
+      "text_color": "#ff444a",
+      "description": "Enhance Education by providing essential resources to schools and students. Your contribution can promote learning and academic excellence.",
+      "price": 50
+    },
+    {
+      "id": 9,
+      "picture": "https://i.ibb.co/ZKhPvct/Health.png",
+      "title": "Emergency Medical Fund",
+      "category": "Health",
+      "category_bg": "#aec8ff",
+      "card_bg": "#d9e5ff",
+      "text_color": "#0052FF",
+      "description": "Create a safety net for medical emergencies. Your donation can ensure that individuals receive prompt and critical medical care when they need it most.",
+      "price": 60
+    },
+    {
+      "id": 10,
+      "picture": "https://i.ibb.co/MD3jKcN/Clothing.png",
+      "title": "Clothes for Kids",
+      "category": "Clothing",
+      "category_bg": "#d4ecc1",
+      "card_bg": "#ebf6e2",
+      "text_color": "#79c23f",
+      "description": "Give children the gift of warmth and comfort. Support our campaign to provide Clothing to disadvantaged kids in your community.",
+      "price": 15
+    },
+    {
+      "id": 11,
+      "picture": "https://i.ibb.co/bNwTmTD/Food.png",
+      "title": "Hunger Relief Program",
+      "category": "Food",
+      "category_bg": "#F8714733",
+      "card_bg": "#F8714726",
+      "text_color": "#F87147",
+      "description": "Join hands to fight hunger in your neighborhood. Your donation can help stock Food banks and ensure families have access to nourishing meals.",
+      "price": 35
+    },
+    {
+      "id": 12,
+      "picture": "https://i.ibb.co/cTydg2F/Education.png",
+      "title": "Scholarships for Underprivileged Students",
+      "category": "Education",
+      "category_bg": "#ffc3c5",
+      "card_bg": "#ffe3e4",
+      "text_color": "#ff444a",
+      "description": "Unlock opportunities for underprivileged students to break the cycle of poverty through Education. Your support can change lives and build a brighter future.",
+      "price": 90
+    }
+  ]
+  
