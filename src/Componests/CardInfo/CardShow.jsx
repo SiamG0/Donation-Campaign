@@ -13,16 +13,16 @@ const CardShow = ({ cardInfo }) => {
             addedDonate.push(cardInfo);
             localStorage.setItem("donation", JSON.stringify(addedDonate));
 
-            toast.success("Good Job! Your donation has been successfully");
+            toast.success("Thank you for donating for the people in need");
         } else {
             const isExist = donateItems.find(donate => donate.id === id);
 
             if (!isExist) {
                 addedDonate.push(...donateItems, cardInfo);
                 localStorage.setItem("donation", JSON.stringify(addedDonate));
-                toast.success("Good Job! Your donation has been successfully");
+                toast.success("Thank you for donating for the people in need");
             } else {
-                toast.error("You have already donated");
+                toast.error("Thanks for trying to help us again but we cannot accept the donetion for a second time from the same person because our website is poorly made.");
             }
         }
     };
