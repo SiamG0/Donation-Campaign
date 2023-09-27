@@ -5,7 +5,7 @@ const DonationInfo = ({ give }) => {
     const { id, price, text_color, card_bg, category, title, picture, category_bg } = give
     return (
         <div>
-            <div style={{ backgroundColo: `${card_bg}` }} className="flex md:h-80 max-w-[36rem] flex-row rounded-xl bg-clip-border text-gray-700 shadow-md">
+            <div style={{ backgroundColor: `${card_bg}` }} className="flex md:h-80 max-w-[36rem] flex-row rounded-xl bg-clip-border text-gray-700 shadow-md">
                 <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
                     <img
                         src={picture}
