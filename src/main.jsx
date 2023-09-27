@@ -8,10 +8,12 @@ import Home from './Componests/Home/Home.jsx'
 import Donation from './Componests/Donation/Donation.jsx'
 import Statistics from './Componests/Statistics/Statistics.jsx'
 import CardInfo from './Componests/CardInfo/CardInfo.jsx'
+import ErroPage from './Componests/ErrorPage/ErroPage.jsx'
 const router = createBrowserRouter([
   {
     path: "/",
     element:<Root></Root>,
+    errorElement: <ErroPage></ErroPage>,
     children:[
       {
         path:"/",
